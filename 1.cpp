@@ -20,5 +20,6 @@ int main()
     a = 1, b = 0;
     maxMum = max(a,b);
     printf("%d",maxMum);
+    printf("ÄãºÃ");
     return 0;
 }
