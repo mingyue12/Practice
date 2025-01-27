@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 
 int max(int a, int b)
 {
@@ -14,13 +15,14 @@ int max(int a, int b)
 
 int main()
 {
-    char arr[8] = "abcdef";
-    printf("%s\n", arr); 
+    char arr1[] = "abc";
     int maxMum = 0;
     int a = 0;
     int b = 0;
     a = 1, b = 0;
     maxMum = max(a,b);
+    int len = strlen(arr1);
+    printf("%d",len);
     printf("%d",maxMum);
     printf("ÄãºÃ");
     return 0;
