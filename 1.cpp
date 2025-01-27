@@ -22,8 +22,8 @@ int main()
     a = 1, b = 0;
     maxMum = max(a,b);
     int len = strlen(arr1);
-    printf("%d",len);
-    printf("%d",maxMum);
+    printf("%d\n",len);
+    printf("%d\n",maxMum);
     printf("ÄãºÃ");
     return 0;
 }
