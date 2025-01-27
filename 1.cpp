@@ -14,7 +14,8 @@ int max(int a, int b)
 
 int main()
 {
-    char arr[] = "abcdef";
+    char arr[8] = "abcdef";
+    printf("%s\n", arr); 
     int maxMum = 0;
     int a = 0;
     int b = 0;
