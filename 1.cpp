@@ -1,9 +1,9 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
 
 int max(int a, int b)
 {
-    if(a>b)
+    if (a > b)
     {
         return a;
     }
@@ -20,10 +20,10 @@ int main()
     int a = 0;
     int b = 0;
     a = 1, b = 0;
-    maxMum = max(a,b);
+    maxMum = max(a, b);
     int len = strlen(arr1);
-    printf("%d\n",len);
-    printf("%d\n",maxMum);
+    printf("%d\n", len);
+    printf("%d\n", maxMum);
     printf("ÄãºÃ");
     return 0;
 }
